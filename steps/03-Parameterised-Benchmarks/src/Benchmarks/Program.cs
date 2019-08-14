@@ -42,13 +42,13 @@ namespace Benchmarks
         public int Colons { get; set; }
 
         [Benchmark(Baseline = true)]
-        public void CountColons()
+        public void Original()
         {
             var result = _parser.GetDelimiterCount(_input);
         }
 
         [Benchmark]
-        public void CountColonsSpanBased()
+        public void SpanBased()
         {
             var result = _parser.GetDelimiterCountSpanBased(_input);
         }

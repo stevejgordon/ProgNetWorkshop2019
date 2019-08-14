@@ -8,7 +8,7 @@ namespace Benchmarks
     {
         static void Main(string[] args)
         {
-            var result = BenchmarkRunner.Run<KeyParserBenchmarks>();
+            BenchmarkRunner.Run<KeyParserBenchmarks>();
         }
     }
 
@@ -16,25 +16,18 @@ namespace Benchmarks
     public class KeyParserBenchmarks
     {
         private const string Input = "This:Is:A:Weirdly:Separated:String:Input:With:Many:Colons";
-
-        private KeyParser _parser;
-
-        [GlobalSetup]
-        public void Setup()
-        {
-            _parser = new KeyParser();
-        }
+        private static readonly KeyParser Parser = new KeyParser();
 
         [Benchmark(Baseline = true)]
-        public void CountColons()
+        public void Original()
         {
-            var result = _parser.GetDelimiterCount(Input);
+            _ = Parser.GetDelimiterCount(Input);
         }
 
         [Benchmark]
-        public void CountColonsSpanBased()
+        public void SpanBased()
         {
-            var result = _parser.GetDelimiterCountSpanBased(Input);
+            _ = Parser.GetDelimiterCountSpanBased(Input);
         }
     }
 }

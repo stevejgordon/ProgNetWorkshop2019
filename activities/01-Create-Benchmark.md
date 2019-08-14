@@ -1,8 +1,10 @@
-# Install .NET SDK
+# Creating a Benchmark
 
 ## What's the plan?
 
 We're going to add a benchmark project to our solution and benchmark the existing GetDelimiterCount method on the KeyParser.
+
+We want to benchmark the execution time and the memory allocations.
 
 ## Activity Steps
 
@@ -18,7 +20,9 @@ We're going to add a benchmark project to our solution and benchmark the existin
 
 5. Create a public class called, KeyParserBenchmarks to hold your benchmarks.
 
-6. Create a benchmark method which will benchmark the execution time and memory allocations of the 'GetDelimiterCount' method on the KeyParser.
+*Hint: Ensure your class is attributed correctly to include the `MemoryDiagnoser`*
+
+6. Create a benchmark method which will benchmark the 'GetDelimiterCount' method on the KeyParser.
 
 *Hint: Be careful to avoid measuring the allocation of the KeyParser instance itself*
 
