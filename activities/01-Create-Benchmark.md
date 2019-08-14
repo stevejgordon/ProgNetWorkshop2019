@@ -1,0 +1,39 @@
+# Install .NET SDK
+
+## What's the plan?
+
+We're going to add a benchmark project to our solution and benchmark the existing GetDelimiterCount method on the KeyParser.
+
+## Activity Steps
+
+1. Load the starting solution from [steps/00-Start](../steps/00-Start).
+
+2. Add a new console application project called 'Benchmarks' to the solution.
+
+*I prefer to create a solution folder called 'benchmarks' to organise these*
+
+3. Add a reference to the Core project from the Benchmarks project.
+
+4. Add a package reference to the latest 'BenchmarkDotNet' NuGet package.
+
+5. Create a public class called, KeyParserBenchmarks to hold your benchmarks.
+
+6. Create a benchmark method which will benchmark the execution time and memory allocations of the 'GetDelimiterCount' method on the KeyParser.
+
+*Hint: Be careful to avoid measuring the allocation of the KeyParser instance itself*
+
+If you get stuck you can follow the more detailed steps in TODO
+
+7. In the Main method, use the BenchmarkRunner to cause the benchmark class to be run.
+
+If you get stuck you can follow the more detailed steps in TODO
+
+8. Make sure you are in Release mode and then run the benchmark project. If using Visual Studio you can use CTRL+F5 or you can use the dotnet CLI if you prefer.
+
+9. Make a note of the mean execution time and the allocated bytes.
+
+## End of Activity
+
+An example of the end result after this activity can be found in [steps/01-Create-Banchmark](../steps/01-Create-Benchmark).
+
+[Return to README and activity links](../README.md)

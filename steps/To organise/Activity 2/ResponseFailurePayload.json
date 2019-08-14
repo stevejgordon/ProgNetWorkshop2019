@@ -1,0 +1,262 @@
+{
+    "took": 50,
+    "errors": true,
+    "items": [
+        {
+            "_id": "1",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "2",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "3",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "4",
+            "status": "failure",
+            "errors": [
+                "Invalid payload"
+            ]
+        },
+        {
+            "_id": "5",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "6",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "7",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "8",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "9",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "10",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "11",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "12",
+            "status": "failure",
+            "errors": [
+                "Invalid payload"
+            ]
+        },
+        {
+            "_id": "13",
+            "status": "failure",
+            "errors": [
+                "Unknown error"
+            ]
+        },
+        {
+            "_id": "14",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "15",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "16",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "17",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "18",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "19",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "20",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "21",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "22",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "23",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "24",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "25",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "26",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "27",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "28",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "29",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "30",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "31",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "32",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "33",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "34",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "35",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "36",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "37",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "38",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "39",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "40",
+            "status": "success",
+            "errors": []
+        }
+        {
+            "_id": "41",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "42",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "43",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "44",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "45",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "46",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "47",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "48",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "49",
+            "status": "success",
+            "errors": []
+        },
+        {
+            "_id": "50",
+            "status": "success",
+            "errors": []
+        }
+    ]
+}
