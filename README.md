@@ -1,6 +1,6 @@
 # Turbocharged: Writing Highly Performant C# and .NET Code Workshop
 
-Thsi is a 3 hour workshop run at ProgNET 2019.
+This is a 3 hour workshop run at ProgNET 2019.
 
 ## Pre-requisite Setup
 
