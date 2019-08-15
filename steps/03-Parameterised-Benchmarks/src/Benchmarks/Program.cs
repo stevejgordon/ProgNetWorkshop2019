@@ -16,7 +16,7 @@ namespace Benchmarks
     [MemoryDiagnoser]
     public class KeyParserBenchmarks
     {
-        const string Word = "something";
+        private const string Word = "something";
 
         private string _input;
         private KeyParser _parser;
@@ -38,7 +38,7 @@ namespace Benchmarks
             _input = sb.ToString();
         }
 
-        [Params(0, 5, 10, 30)]
+        [Params(0, 5, 10)]
         public int Colons { get; set; }
 
         [Benchmark(Baseline = true)]

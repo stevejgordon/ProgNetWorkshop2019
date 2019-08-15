@@ -4,11 +4,11 @@ Below you will find more detailed notes for some of the more complex steps if yo
 
 ## Activity Steps
 
-### Step 6 Detailed Steps
+### Step 6 Detailed Intructions
 
 Create a benchmark method which will benchmark the execution time and memory allocations of the 'GetDelimiterCount' method on the KeyParser.
 
-*NOTE: There are various ways that we can achieve this goal. This is just one option*
+> *NOTE: There are various ways that we can achieve this goal. This is just one option.*
 
 1. We'll define a constant string which we'll use as our input. This can be a private field.
 
@@ -16,14 +16,15 @@ Create a benchmark method which will benchmark the execution time and memory all
 private const string Input = "This:Is:A:Weirdly:Separated:String:Input:With:Many:Colons";
 ```
 
-2. We'll also initialise a static field with an instance of KeyParser
+2. We'll also initialise a static field with an instance of KeyParser.
 
 ```csharp
 private static readonly KeyParser Parser = new KeyParser();
 ```
 
-3. We'll create a method called 'CountColons'
+3. We'll create a method called 'Original' and mark it with the `Benchmark` attribute.
 
+4. Inside this method, we'll call the GetDelimiterCount, passing our constant string as the input argument.
 
 *Final code for `KeyParserBenchmarks`*
 
@@ -59,8 +60,4 @@ static void Main(string[] args)
 }
 ```
 
-## End of Activity
-
-An example of the end result after this activity can be found in [steps/01-Create-Banchmark](../steps/01-Create-Benchmark).
-
-[Return to README and activity links](../README.md)
+[Return to the main steps in 01-Create-Benchmark](../01-Create-Benchmark.md)

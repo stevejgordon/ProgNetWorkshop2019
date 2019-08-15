@@ -11,6 +11,12 @@ Thsi is a 3 hour workshop run at ProgNET 2019.
 
 TODO
 
+## Repository Structure
+
+**Activity** instructions are included in the folder 'activities'. You will need to follow these for each activity during the workshop. In some cases, more detailed notes are included in the sub-folder 'detailed'. These provide more granular steps if you get stuck with a particular activity. 
+
+The repository also includes a folder called '**steps**' which provides solutions and/or examples for the end state of each activity. If you get stuck or left behind you can load one of these and continue from that step. Some activities may start from a new starting solution.
+
 ## Activities
 
 | Activity | Topics |
