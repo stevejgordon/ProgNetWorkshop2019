@@ -20,17 +20,17 @@ We want to benchmark the execution time and the memory allocations.
 
 5. Create a public class called, KeyParserBenchmarks to hold your benchmarks.
 
-*Hint: Ensure your class is attributed correctly to include the `MemoryDiagnoser`*
+> *Hint: Ensure your class is attributed correctly to include the `MemoryDiagnoser`*
 
 6. Create a benchmark method which will benchmark the 'GetDelimiterCount' method on the KeyParser.
 
-*Hint: Be careful to avoid measuring the allocation of the KeyParser instance itself*
+> *Hint: Be careful to avoid measuring the allocation of the KeyParser instance itself*
 
-*If you get stuck you can follow the more [detailed steps](detailed/01-Create-Benchmark.md).*
+> *If you get stuck you can follow the more [detailed steps](detailed/01-Create-Benchmark.md).*
 
 7. In the Main method, use the BenchmarkRunner to cause the benchmark class to be run.
 
-*If you get stuck you can follow the more detailed steps in [detailed steps](detailed/01-Create-Benchmark.md).*
+> *If you get stuck you can follow the more detailed steps in [detailed steps](detailed/01-Create-Benchmark.md).*
 
 8. Make sure you are in Release mode and then run the benchmark project. If using Visual Studio you can use CTRL+F5 or you can use the dotnet CLI if you prefer.
 

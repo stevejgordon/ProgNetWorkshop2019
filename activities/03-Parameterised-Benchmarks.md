@@ -14,7 +14,7 @@ We're going to update our benchmarks to include a parameter to control the numbe
 
 4. Add code to this method to support building a variable length string, with the appropriate number of colons.
 
-*If you get stuck you can follow the more [detailed steps](detailed/03-Parameterised-Benchmarks.md).*
+> *If you get stuck you can follow the more [detailed steps](detailed/03-Parameterised-Benchmarks.md).*
 
 5. Run your updated benchmarks which should now include parameterised results.
 
