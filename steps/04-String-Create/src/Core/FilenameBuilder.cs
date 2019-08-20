@@ -6,13 +6,13 @@ namespace Core
 {
     public class FilenameBuilder
     {
-        public const string DateFormat = "yyyy-MM-dd-HH-";
-        public const string Suffix = ".txt";
+        private const string DateFormat = "yyyy-MM-dd-HH-";
+        private const string Suffix = ".txt";
 
         private static ReadOnlySpan<char> DateFormatSpan => new[] { 'y', 'y', 'y', 'y', '-', 'M', 'M', '-', 'd', 'd', '-', 'H', 'H', '-' };
         private static ReadOnlySpan<char> SuffixSpan => new[] { '.', 't', 'x', 't' };
 
-        public static char Separator = '-';
+        private static char Separator = '-';
 
         public string BuildFilename(DataContext dataContext)
         {

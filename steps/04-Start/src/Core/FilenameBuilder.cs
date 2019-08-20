@@ -6,9 +6,9 @@ namespace Core
 {
     public class FilenameBuilder
     {
-        public const string DateFormat = "yyyy-MM-dd-HH-";
-        public const string Suffix = ".txt";
-        public static char Separator = '-';
+        private const string DateFormat = "yyyy-MM-dd-HH-";
+        private const string Suffix = ".txt";
+        private static char Separator = '-';
 
         public string BuildFilename(DataContext dataContext)
         {

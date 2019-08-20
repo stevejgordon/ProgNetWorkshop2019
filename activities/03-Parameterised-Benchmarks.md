@@ -20,6 +20,6 @@ We're going to update our benchmarks to include a parameter to control the numbe
 
 ## End of Activity
 
-An example of the end result after this activity can be found in [steps/02-Span-Based](../steps/02-Span-Based).
+An example of the end result after this activity can be found in [steps/03-Parameterised-Benchmarks](../steps/03-Parameterised-Benchmarks).
 
 [Return to README and activity links](../README.md)
