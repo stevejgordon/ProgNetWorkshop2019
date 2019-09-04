@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.IO;
 using System.Text;
 
@@ -15,13 +14,6 @@ namespace Core
             var drivers = JsonSerializer.Create().Deserialize(reader, typeof(FormulaOneDriverData)) as FormulaOneDriverData;
 
             return JsonConvert.SerializeObject(drivers);
-        }
-
-        public static string DeserialiseAndSerialiseMicrosoft(ReadOnlySpan<byte> json)
-        {
-            var drivers = System.Text.Json.JsonSerializer.Deserialize<FormulaOneDriverData>(json);
-
-            return System.Text.Json.JsonSerializer.Serialize(drivers);
         }
 
         public class FormulaOneDriverData
