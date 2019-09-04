@@ -6,7 +6,9 @@ TODO
 
 ## Activity Steps
 
-1. 
+1. Open the solution in [steps/04-Start](../steps/05-Start) folder.
+
+2. 
 
 ## End of Activity
 

@@ -9,6 +9,12 @@ This is a 3 hour workshop run at ProgNET 2019.
 
 ## What We'll Be Learning
 
+During this workshop, we will discuss and apply various modern C# and .NET techniques to optimise our codebases. We'll begin by learning how to measure the performance of existing code with benchmarks. We learn about Span<T> and apply it to optimise some simple code. We'll look at high-performance, string construction with String.Create. We'll learn about the shared ArrayPool with a practical excercise to measure the allocation reduction it can produce. We'll learn about the new high-performance JSON APIs from Microsoft.
+
+This workshop is focused on introducing as many high-performance features as possible, with practical demos and excercises that help the audience to cement their understanding of the APIs and types we cover in this session.
+
+## Is this course suitable for me?
+
 TODO
 
 ## Repository Structure
@@ -22,5 +28,12 @@ The repository also includes a folder called '**steps**' which provides solution
 | Activity | Topics |
 | ----- | ---- |
 | [Activity #1](/activities/01-Create-Benchmark.md) | Create a basic benchmark |
-| [Activity #2](/activities/02-02-Span-Based.md) | Optimise some code with Span<T> |
-| [Activity #3](/activities/03-03-Parameterised-Benchmarks.md) | Add parameters to the benchmarks |
+| [Activity #2](/activities/02-Span-Based.md) | Optimise some code with Span<T> |
+| [Activity #3](/activities/03-Parameterised-Benchmarks.md) | Add parameters to the benchmarks |
+| [Activity #4](/activities/04-String-Create.md) | Applying String.Create for rapid, low-allocation string construction |
+| [Activity #5](/activities/05-ArrayPool.md) | Switching to ArrayPool to reduce array allocations |
+| [Activity #6](/activities/06-Json.md) | Switch to the System.Text.Json high-level APIs |
+
+## Extensions
+
+ObjectPool<T>
