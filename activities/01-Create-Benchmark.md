@@ -32,9 +32,11 @@ We want to benchmark the execution time and the memory allocations.
 
 > *If you get stuck you can follow the more detailed steps in [detailed steps](detailed/01-Create-Benchmark.md).*
 
-8. Make sure you are in Release mode and then run the benchmark project. If using Visual Studio you can use CTRL+F5 or you can use the dotnet CLI if you prefer.
+8. Open a command prompt (or terminal of your choosing) at the location of the Benchmarks project.
 
-9. Make a note of the mean execution time and the allocated bytes.
+9. Run the benchmark project in release mode using the following command: dotnet run -c Release
+
+10. Make a note of the mean execution time and the allocated bytes.
 
 ## End of Activity
 
