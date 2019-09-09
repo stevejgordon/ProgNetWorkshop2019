@@ -33,12 +33,6 @@ namespace Benchmarks
         {
             _ = JsonDataWorker.DeserialiseAndSerialiseNewtonsoft(_bytes);
         }
-
-        [Benchmark]
-        public void Microsoft()
-        {
-            _ = JsonDataWorker.DeserialiseAndSerialiseMicrosoft(_bytes);
-        }
     }
 
     [MemoryDiagnoser]

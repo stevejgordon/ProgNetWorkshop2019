@@ -18,24 +18,24 @@ namespace Benchmarks
     [MemoryDiagnoser]
     public class MultiplierBenchmarks
     {
-        public static int _size = 1000;
+        private const int Size = 1000;
 
         [Benchmark(Baseline = true)]
         public void Original()
         {
-            var array = new int[_size];
-            Multiplier.CalculateMultiplesOfTwo(array, _size);
+            var array = new int[Size];
+            Multiplier.PopulateMultiplesOfTwo(array);
             // do something with the data
         }
 
         [Benchmark]
         public void ArrayPool()
         {
-            var array = ArrayPool<int>.Shared.Rent(_size);
+            var array = ArrayPool<int>.Shared.Rent(Size);
 
             try
             {
-                Multiplier.CalculateMultiplesOfTwo(array, _size);
+                Multiplier.PopulateMultiplesOfTwo(array, Size);
                 // do something with the data
             }
             finally

@@ -2,13 +2,18 @@
 {
     public static class Multiplier
     {
-        public static void CalculateMultiplesOfTwo(int[] data, int size)
+        public static void PopulateMultiplesOfTwo(int[] data)
+        {
+            PopulateMultiplesOfTwo(data, data.Length);
+        }
+
+        public static void PopulateMultiplesOfTwo(int[] data, int size)
         {
             data[0] = 2;
 
-            for (int i = 2; i < size; ++i)
+            for (var i = 1; i < size; ++i)
             {
-                data[i] = i * 2;
+                data[i] = (i + 1) * 2;
             }
         }
     }

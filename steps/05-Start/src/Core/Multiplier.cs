@@ -2,11 +2,11 @@
 {
     public static class Multiplier
     {
-        public static void CalculateMultiplesOfTwo(int[] data, int size)
+        public static void PopulateMultiplesOfTwo(int[] data)
         {
             data[0] = 2;
 
-            for (int i = 2; i < size; ++i)
+            for (var i = 2; i < data.Length; ++i)
             {                
                 data[i] = i * 2;
             }
