@@ -15,7 +15,9 @@ This workshop is focused on introducing as many high-performance features as pos
 
 ## Is this course suitable for me?
 
-TODO
+This workshop covers some quite advanced topics so a level of C# and .NET experience is required. The high-performance topics themselves will be covered from a beginner level so there is no need for prior knowledge of benchmarking, Span<T> etc.
+
+If you've previously seen my talk 'Turbocharged: Writing High-Performance C# and .NET Code' then the themes and some of the content overlap. This dives deeper into some of the topics and includes more demos and some practical activites.
 
 ## Repository Structure
 
@@ -33,7 +35,5 @@ The repository also includes a folder called '**steps**' which provides solution
 | [Activity #4](/activities/04-String-Create.md) | Applying String.Create for rapid, low-allocation string construction |
 | [Activity #5](/activities/05-ArrayPool.md) | Switching to ArrayPool to reduce array allocations |
 | [Activity #6](/activities/06-Json.md) | Switch to the System.Text.Json high-level APIs |
-
-## Extensions
 
 ObjectPool<T>
