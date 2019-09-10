@@ -40,6 +40,6 @@ We want to benchmark the execution time and the memory allocations.
 
 ## End of Activity
 
-An example of the end result after this activity can be found in [steps/01-Create-Banchmark](../steps/01-Create-Benchmark).
+An example of the end result after this activity can be found in [steps/01-Create-Benchmark](../steps/01-Create-Benchmark).
 
 [Return to README and activity links](../README.md)
