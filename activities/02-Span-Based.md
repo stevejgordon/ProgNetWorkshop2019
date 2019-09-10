@@ -10,6 +10,8 @@ We're going to add create a Span<T> based version of GetDelimiterCount and bench
 
 2. Provide an implementation for 'GetDelimiterCountSpanBased' which uses a `ReadOnlySpan<char>` and it's features to attempt to optimise the delimiter counting.
 
+> *HINT: You may need to use the `Slice` and `IndexOf` methods.*
+
 > *If you get stuck you can follow the more [detailed steps](detailed/02-Span-Based-Delimiter-Count.md).*
 
 3. Update the 'Core.Tests' to validate that your new method passes the same tests as used for 'GetDelimiterCount'.
