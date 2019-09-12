@@ -17,7 +17,7 @@ This workshop is focused on introducing as many high-performance features as pos
 
 This workshop covers some quite advanced topics so a level of C# and .NET experience is required. The high-performance topics themselves will be covered from a beginner level so there is no need for prior knowledge of benchmarking, `Span<T>` etc.
 
-If you've previously seen my talk 'Turbocharged: Writing High-Performance C# and .NET Code' then the themes and some of the content overlap. This dives deeper into some of the topics and includes more demos and some practical activites.
+If you've previously seen my talk 'Turbocharged: Writing High-Performance C# and .NET Code' then the themes and a reasonable amount of the content overlap. This dives deeper into some of the topics and includes more demos and some practical activites.
 
 ## Repository Structure
 
