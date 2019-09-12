@@ -35,5 +35,3 @@ The repository also includes a folder called '**steps**' which provides solution
 | [Activity #4](/activities/04-String-Create.md) | Applying String.Create for rapid, low-allocation string construction |
 | [Activity #5](/activities/05-ArrayPool.md) | Switching to ArrayPool to reduce array allocations |
 | [Activity #6](/activities/06-Json.md) | Switch to the System.Text.Json high-level APIs |
-
-ObjectPool<T>
