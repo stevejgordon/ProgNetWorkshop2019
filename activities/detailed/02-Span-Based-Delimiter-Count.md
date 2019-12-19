@@ -28,7 +28,6 @@ Provide an implementation for 'GetDelimiterCountSpanBased' which uses a `ReadOnl
 *Final code for `GetDelimiterCountSpanBased`*
 
 ```csharp
-[MemoryDiagnoser]
 public int GetDelimiterCountSpanBased(ReadOnlySpan<char> input)
 {
     var count = 0;
